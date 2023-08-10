@@ -6,14 +6,21 @@
 
 /** GLOBAL VARIABLES **/
 // TODO: initialize three empty arrays (see Part A, 2)
+// first two will contain fetched stuff
+let categories = [];
+let allDrinks = [];
+let currentDrinks = [];
+
 
 let colorClasses = {
     // TODO: add properties relating drink type with CSS class (see Part B, 6)
 }
 
 /** WINDOW LOAD LISTENER **/
+// what actually starts the page. how the page initially connects with this file
 window.addEventListener("load", function() {
     // TODO: call fetch function for drinks (see Part A, 3)
+        // can't call init() yet, bc we need to know we've fetched stuff FIRST
     // Note: init() should be called at the end of fetchCategories() to make sure fetched data has returned from the API before the page is rendered. Each fetch function is chained to another this way.
 });
 
